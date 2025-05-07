@@ -65,7 +65,7 @@ const Navbar = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          Ritvik Raj<span className="text-navy-500">.</span>
+          Ritvik Raj
         </motion.a>
         
         {/* Desktop Navigation */}
