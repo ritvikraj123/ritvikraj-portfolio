@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { Code, Database, BarChart, HardDrive } from 'lucide-react';
+import { Code, Database, BarChart, HardDrive, Brain } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 interface ExpertiseCardProps {
@@ -50,6 +50,11 @@ const TechnicalExpertise = () => {
       title: "Back-End Development",
       description: "Creating robust server-side applications and APIs using Java, Node.js, and Go with focus on performance and security.",
       icon: <Database className="h-8 w-8" />
+    },
+    {
+      title: "AI & LLM Integration",
+      description: "Developing AI-powered applications using Large Language Models (GPTs), implementing natural language processing, and building intelligent automation solutions.",
+      icon: <Brain className="h-8 w-8" />
     },
     {
       title: "Data & Analytics",

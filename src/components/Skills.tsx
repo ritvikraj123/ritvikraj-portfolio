@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Code, Layers, Wrench, BarChart, Database } from 'lucide-react';
+import { Code, Layers, Wrench, BarChart, Database, Brain } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 interface SkillCategoryProps {
@@ -63,6 +63,11 @@ const Skills = () => {
     "Git", "Jira", "AWS", "Docker", "CI/CD", "REST APIs",
   ];
 
+  const aiAndLLM = [
+    "GPT Integration", "LLM Development", "NLP", "Machine Learning",
+    "AI Automation", "Prompt Engineering",
+  ];
+
   const dataAnalytics = [
     "Data Visualization", "Statistical Analysis", "Business Intelligence", 
     "Reporting", "Dashboards",
@@ -95,6 +100,11 @@ const Skills = () => {
             title="Tools & Technologies" 
             skills={tools}
             icon={<Wrench className="h-5 w-5" />}
+          />
+          <SkillCategory 
+            title="AI & LLM" 
+            skills={aiAndLLM}
+            icon={<Brain className="h-5 w-5" />}
           />
           <SkillCategory 
             title="Data & Analytics" 
