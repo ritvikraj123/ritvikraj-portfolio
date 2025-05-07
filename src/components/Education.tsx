@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -52,20 +51,9 @@ const Education = () => {
                   </div>
                   <p className="text-gray-500 md:text-right">2018 - 2022</p>
                 </div>
-                
-                <div className="mt-4">
-                  <div className="flex gap-2 flex-wrap">
-                    <Badge className="bg-navy-100 text-navy-700 hover:bg-navy-200 transition-colors">Computer Science</Badge>
-                    <Badge className="bg-navy-100 text-navy-700 hover:bg-navy-200 transition-colors">Finance</Badge>
-                    <Badge className="bg-navy-100 text-navy-700 hover:bg-navy-200 transition-colors">Data Structures</Badge>
-                    <Badge className="bg-navy-100 text-navy-700 hover:bg-navy-200 transition-colors">Algorithms</Badge>
-                  </div>
-                </div>
               </CardContent>
             </Card>
           </motion.div>
-          
-
         </div>
       </div>
     </section>
