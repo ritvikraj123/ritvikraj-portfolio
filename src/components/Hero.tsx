@@ -109,6 +109,7 @@ const Hero = () => {
           >
             <p className="text-lg text-gray-600 max-w-2xl mb-8">
               I build exceptional digital experiences with a focus on performance, scalability, and user experience.
+              Specializing in AI and LLM integration, I develop intelligent applications that leverage the power of Large Language Models.
               Currently working at ADP as a Software Engineer.
             </p>
           </motion.div>

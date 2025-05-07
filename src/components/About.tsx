@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const About = () => {
@@ -15,6 +14,11 @@ const About = () => {
             <p className="text-lg">
               I'm Ritvik Raj, a Software Engineer at ADP with a dual degree in Computer Science and Finance from Rutgers University. 
               I specialize in developing robust, efficient, and user-friendly software solutions that solve real business problems.
+            </p>
+            
+            <p className="text-lg">
+              I have extensive experience in AI and Large Language Models (LLMs), having developed AI-powered applications using GPTs and other LLMs. 
+              My work includes implementing natural language processing solutions, building intelligent automation systems, and creating AI-driven tools that enhance productivity and user experience.
             </p>
             
             <p className="text-lg">
