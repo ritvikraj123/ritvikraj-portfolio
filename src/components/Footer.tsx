@@ -48,7 +48,7 @@ const Footer = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-2xl font-bold font-display">
-              Ritvik<span className="text-navy-300">.</span>
+              Ritvik<span className="text-navy-300"></span>
             </h2>
             <p className="text-navy-300 mt-1">Software Engineer</p>
           </motion.div>
