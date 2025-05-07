@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -51,13 +50,17 @@ const ProjectCard = ({ title, description, technologies, githubLink, demoLink, i
           <p className="text-gray-700 mb-4">{description}</p>
           <div className="flex flex-wrap gap-2 mb-4">
             {technologies.map((tech) => (
-              <Badge 
-                key={tech} 
-                variant="secondary" 
-                className="bg-navy-100 text-navy-700 group-hover:bg-navy-200 transition-colors"
+              <motion.div
+                key={tech}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
               >
-                {tech}
-              </Badge>
+                <Badge 
+                  className="bg-navy-50 text-navy-800 hover:bg-navy-100 py-1.5 px-3 cursor-pointer transition-colors duration-200 border border-navy-300 shadow-sm"
+                >
+                  {tech}
+                </Badge>
+              </motion.div>
             ))}
           </div>
         </CardContent>

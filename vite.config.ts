@@ -5,7 +5,7 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/ritvikraj-portfolio/',
+  base: process.env.NODE_ENV === 'production' ? '/ritvikraj-portfolio/' : '/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
