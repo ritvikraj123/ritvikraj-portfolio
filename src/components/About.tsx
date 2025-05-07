@@ -17,7 +17,7 @@ const About = () => {
             </p>
             
             <p className="text-lg">
-              I have extensive experience in AI and Large Language Models (LLMs), having developed AI-powered applications using GPTs and other LLMs. 
+              I develop AI-powered applications using GPTs and other Large Language Models (LLMs). 
               My work includes implementing natural language processing solutions, building intelligent automation systems, and creating AI-driven tools that enhance productivity and user experience.
             </p>
             
